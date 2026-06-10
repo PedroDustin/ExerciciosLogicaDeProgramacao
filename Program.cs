@@ -1,0 +1,10 @@
+﻿using System;
+using ListaEstruturaDeDecisao;
+//Exercicio01.Main(args);
+//Exercicio02.Main(args);
+//Exercicio03.Main(args);
+//Exercicio04.Main(args);
+//Exercicio05.Main(args); 
+//Exercicio06.Main(args); 
+//Exercicio07.Main(args); 
+Exercicio08.Main(args); 
