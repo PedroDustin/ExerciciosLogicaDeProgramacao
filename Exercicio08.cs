@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-//7.Limite de banda: Leia a quantidade de tráfego de rede gerado em GB.
-//Se ultrapassar 100 GB, calcule um adicional de R$ 5,00 por GB excedente e exiba o valor da taxa.
+//8. Múltiplos: Leia dois números inteiros. Se o primeiro número for divisível pelo segundo
+//(resto da divisão igual a zero), exiba "O primeiro é múltiplo do segundo".
 
 namespace ListaEstruturaDeDecisao
 {
@@ -11,7 +11,16 @@ namespace ListaEstruturaDeDecisao
     {
         public static void Main(string[] args)
         {
-           
+            Console.WriteLine("Digite um número inteiro");
+            int numero1 = Convert.ToInt16(Console.ReadLine());
+
+            Console.WriteLine("Digite o segundo número inteiro");
+            int numero2 = Convert.ToInt16(Console.ReadLine());
+
+            if(numero1 % numero2 == 0)
+            {
+                Console.WriteLine("O primeiro é multiplo do segundo");
+            }
         }
     }
 }
